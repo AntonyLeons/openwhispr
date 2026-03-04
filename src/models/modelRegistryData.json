@@ -322,6 +322,55 @@
       "promptTemplate": "<|im_start|>system\n{system}<|im_end|>\n<|im_start|>user\n{user}<|im_end|>\n<|im_start|>assistant\n",
       "models": [
         {
+          "id": "qwen3.5-9b-instruct-q4_k_m",
+          "name": "Qwen 3.5 9B",
+          "size": "6.2GB",
+          "sizeBytes": 6657199308,
+          "description": "Latest Qwen 3.5 model with enhanced reasoning",
+          "fileName": "Qwen3.5-9B-Q4_K_M.gguf",
+          "quantization": "q4_k_m",
+          "contextLength": 131072,
+          "hfRepo": "unsloth/Qwen3.5-9B-GGUF",
+          "recommended": true,
+          "descriptionKey": "models.descriptions.local.qwen_qwen3_5_9b_instruct_q4_k_m"
+        },
+        {
+          "id": "qwen3.5-4b-instruct-q4_k_m",
+          "name": "Qwen 3.5 4B",
+          "size": "2.8GB",
+          "sizeBytes": 3006477107,
+          "description": "Compact Qwen 3.5 with strong performance",
+          "fileName": "Qwen3.5-4B-Q4_K_M.gguf",
+          "quantization": "q4_k_m",
+          "contextLength": 131072,
+          "hfRepo": "unsloth/Qwen3.5-4B-GGUF",
+          "descriptionKey": "models.descriptions.local.qwen_qwen3_5_4b_instruct_q4_k_m"
+        },
+        {
+          "id": "qwen3.5-2b-instruct-q4_k_m",
+          "name": "Qwen 3.5 2B",
+          "size": "1.5GB",
+          "sizeBytes": 1610612736,
+          "description": "Small Qwen 3.5 for edge devices",
+          "fileName": "Qwen3.5-2B-Q4_K_M.gguf",
+          "quantization": "q4_k_m",
+          "contextLength": 131072,
+          "hfRepo": "unsloth/Qwen3.5-2B-GGUF",
+          "descriptionKey": "models.descriptions.local.qwen_qwen3_5_2b_instruct_q4_k_m"
+        },
+        {
+          "id": "qwen3.5-0.8b-instruct-q8_0",
+          "name": "Qwen 3.5 0.8B",
+          "size": "0.9GB",
+          "sizeBytes": 966367641,
+          "description": "Tiny Qwen 3.5 model",
+          "fileName": "Qwen3.5-0.8B-Q8_0.gguf",
+          "quantization": "q8_0",
+          "contextLength": 131072,
+          "hfRepo": "unsloth/Qwen3.5-0.8B-GGUF",
+          "descriptionKey": "models.descriptions.local.qwen_qwen3_5_0_8b_instruct_q8_0"
+        },
+        {
           "id": "qwen3-8b-q4_k_m",
           "name": "Qwen3 8B",
           "size": "5.0GB",

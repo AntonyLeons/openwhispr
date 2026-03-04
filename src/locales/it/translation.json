@@ -1236,6 +1236,10 @@
         "groq_kimi_k2_0905": "Moonshot AI 1T MoE, contesto 256K"
       },
       "local": {
+        "qwen_qwen3_5_9b_instruct_q4_k_m": "Ultimo modello Qwen 3.5 con ragionamento migliorato",
+        "qwen_qwen3_5_4b_instruct_q4_k_m": "Qwen 3.5 compatto con prestazioni elevate",
+        "qwen_qwen3_5_2b_instruct_q4_k_m": "Piccolo Qwen 3.5 per dispositivi edge",
+        "qwen_qwen3_5_0_8b_instruct_q8_0": "Modello Qwen 3.5 minuscolo",
         "qwen_qwen3_8b_q4_k_m": "Ultimo Qwen3 con supporto alla modalità pensiero",
         "qwen_qwen3_8b_q5_k_m": "Qwen3 di qualità superiore con modalità pensiero",
         "qwen_qwen3_4b_q4_k_m": "Qwen3 compatto con capacità di ragionamento",
